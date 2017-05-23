@@ -6,16 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:deviceIds="wear_round">
-    <Button
-        android:id="@+id/myButton"
-        android:layout_width="match_parent"
-        android:layout_height="53.3dp"
-        android:text="@string/button" />
     <TextView
-        android:text="Hola mundo"
+        android:text="Ocupado"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
-        android:layout_height="49.3dp"
-        android:id="@+id/textView1"
+        android:layout_height="68.0dp"
+        android:id="@+id/textOcupado"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp"
         android:layout_marginBottom="0.0dp" />
+    <TextView
+        android:text="#"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="46.0dp"
+        android:id="@+id/textNumero" />
+    <Button
+        android:text="Lanzar cliente"
+        android:layout_width="match_parent"
+        android:layout_height="58.7dp"
+        android:id="@+id/buttonLanzar"
+        android:layout_marginRight="0.0dp" />
 </LinearLayout>
